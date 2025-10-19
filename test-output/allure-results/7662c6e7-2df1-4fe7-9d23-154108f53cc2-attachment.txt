@@ -48,23 +48,3 @@
   <body>{"responseCode": 200, "message": "Account deleted!"}</body>
 </html>
 [INFO] - [19-10-2025 18:10:20] [main] [com.automationexercices.media.ScreenshotsManager] - Capturing screenshot successfully
-[INFO] - [19-10-2025 18:10:20] [main] [com.automationexercices.listeners.TestNGListeners] - inValidLoginUsingInvalidPasswordTC passed
-[INFO] - [19-10-2025 18:10:20] [main] [com.automationexercices.drivers.GUIDriver] - Initializing driver =>edge<=
-[INFO] - [19-10-2025 18:10:24] [main] [com.automationexercices.utils.Actions.BrowserActions] - Navigated to URL: https://automationexercise.com
-[INFO] - [19-10-2025 18:10:24] [main] [com.automationexercices.listeners.TestNGListeners] - validLoginTC  About to execute 
-[INFO] - [19-10-2025 18:10:25] [main] [com.automationexercices.apis.UserManagementAPI] - <html>
-  <body>{"responseCode": 201, "message": "User created!"}</body>
-</html>
-[INFO] - [19-10-2025 18:10:25] [main] [com.automationexercices.utils.Actions.BrowserActions] - Navigated to URL: https://automationexercise.com/login
-[INFO] - [19-10-2025 18:10:26] [main] [com.automationexercices.utils.Actions.ElementActions] - Typed '{}' into element: {} owltest_1760886591873@gmail.comBy.cssSelector: [data-qa="login-email"]
-[INFO] - [19-10-2025 18:10:26] [main] [com.automationexercices.utils.Actions.ElementActions] - Typed '{}' into element: {} P@ssw0rdBy.cssSelector: [data-qa="login-password"]
-[INFO] - [19-10-2025 18:10:28] [main] [com.automationexercices.utils.Actions.ElementActions] - Clicked on element: {}By.cssSelector: [data-qa="login-button"]
-[INFO] - [19-10-2025 18:10:28] [main] [com.automationexercices.utils.Actions.ElementActions] - Retrieved text ' from element:  owl kiddoBy.tagName: b
-[INFO] - [19-10-2025 18:10:28] [main] [com.automationexercices.pages.components.NavigationBarComponent] - Actual user name is: {} owl kiddo
-[INFO] - [19-10-2025 18:10:29] [main] [com.automationexercices.apis.UserManagementAPI] - <html>
-  <body>{"responseCode": 200, "message": "Account deleted!"}</body>
-</html>
-[INFO] - [19-10-2025 18:10:29] [main] [com.automationexercices.media.ScreenshotsManager] - Capturing screenshot successfully
-[INFO] - [19-10-2025 18:10:30] [main] [com.automationexercices.listeners.TestNGListeners] - validLoginTC passed
-[INFO] - [19-10-2025 18:10:40] [main] [com.automationexercices.FileUtils] - Target File path C:\Users\Maka\Desktop\ITI\final_git\AutomationExerciseProject\test-output\allure-report\index.html is renamed to AllureReport_2025-10-19_18-10-40.html
-[INFO] - [19-10-2025 18:10:40] [main] [com.automationexercices.listeners.TestNGListeners] - Execution finished

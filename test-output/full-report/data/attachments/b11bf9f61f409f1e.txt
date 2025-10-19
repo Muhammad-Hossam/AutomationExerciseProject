@@ -65,6 +65,3 @@
   <body>{"responseCode": 200, "message": "Account deleted!"}</body>
 </html>
 [INFO] - [19-10-2025 18:10:29] [main] [com.automationexercices.media.ScreenshotsManager] - Capturing screenshot successfully
-[INFO] - [19-10-2025 18:10:30] [main] [com.automationexercices.listeners.TestNGListeners] - validLoginTC passed
-[INFO] - [19-10-2025 18:10:40] [main] [com.automationexercices.FileUtils] - Target File path C:\Users\Maka\Desktop\ITI\final_git\AutomationExerciseProject\test-output\allure-report\index.html is renamed to AllureReport_2025-10-19_18-10-40.html
-[INFO] - [19-10-2025 18:10:40] [main] [com.automationexercices.listeners.TestNGListeners] - Execution finished
