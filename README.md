@@ -2,7 +2,7 @@
 
 ## 🧠 Overview  
 This is a **practice Test Automation project** I built while learning **test automation frameworks** and **software design patterns**.  
-It automates key workflows on the **[Automation Exercise](https://automationexercise.com)** website — including registration, login, product browsing, and checkout — using **Java**, **Selenium**, and **TestNG**.
+It automates key test cases to cover workflows on the **[Automation Exercise](https://automationexercise.com)** website — including registration, login, product browsing, and checkout — using **Java**, **Selenium**, and **TestNG**.
 
 The project follows **clean code principles** and uses well-known **design patterns** to make the framework maintainable, reusable, and easy to scale.
 
