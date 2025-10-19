@@ -39,14 +39,13 @@ public class AllureReportGenerator {
     }
 
     //open Allure report in browser
-    public static void openReport(String reportFileName) {
-        if (!getProperty("executionType").toLowerCase().contains("local")) return;
-
+    public static void openReport(String reportFileName){
+        if(!getProperty("executionType").toLowerCase().contains("local")) return;
         Path reportPath = AllureConstants.REPORT_PATH.resolve(reportFileName);
-        switch (OSUtils.getCurrentOS()) {
-            case WINDOWS -> TerminalUtils.executeTerminalCommand("cmd.exe", "/c", "start", reportPath.toString());
-            case MAC, LINUX -> TerminalUtils.executeTerminalCommand("open", reportPath.toString());
-            default -> LogsManager.warn("Opening Allure Report is not supported on this OS.");
+        switch (OSUtils.getCurrentOS()){
+            case WINDOWS -> TerminalUtils.executeTerminalCommand("cmd.exe","/c","start " + reportPath.toString());
+            case MAC, LINUX-> TerminalUtils.executeTerminalCommand("open", reportPath.toString());
+            default -> LogsManager.warn("OS not supported to open Allure report");
         }
     }
 

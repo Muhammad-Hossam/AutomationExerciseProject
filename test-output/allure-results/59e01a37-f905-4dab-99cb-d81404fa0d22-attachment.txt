@@ -1,0 +1,150 @@
+[INFO] - [19-10-2025 18:51:58] [main] [com.automationexercices.FileUtils] - File deleted: C:\Users\Maka\Desktop\ITI\final_git\AutomationExerciseProject\test-output\Logs
+[INFO] - [19-10-2025 18:51:58] [main] [com.automationexercices.listeners.TestNGListeners] - Test output directories cleaned
+[INFO] - [19-10-2025 18:51:58] [main] [com.automationexercices.FileUtils] - Directory created: test-output/screenshots/
+[INFO] - [19-10-2025 18:51:58] [main] [com.automationexercices.FileUtils] - Directory created: src/test/resources/downloads
+[INFO] - [19-10-2025 18:51:58] [main] [com.automationexercices.listeners.TestNGListeners] - Test output directories created
+[INFO] - [19-10-2025 18:51:58] [main] [com.automationexercices.listeners.TestNGListeners] - Properties loaded
+[INFO] - [19-10-2025 18:51:58] [main] [com.automationexercices.utils.report.AllureEnvironmentManager] - Allure environment info set successfully
+[INFO] - [19-10-2025 18:51:59] [main] [com.automationexercices.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [19-10-2025 18:51:59] [main] [com.automationexercices.listeners.TestNGListeners] - Allure environment info set
+[INFO] - [19-10-2025 18:52:00] [main] [com.automationexercices.drivers.GUIDriver] - Initializing driver =>edge<=
+[INFO] - [19-10-2025 18:52:04] [main] [com.automationexercices.utils.Actions.BrowserActions] - Navigated to URL: https://automationexercise.com
+[INFO] - [19-10-2025 18:52:04] [main] [com.automationexercices.listeners.TestNGListeners] - registerNewAccount  About to execute 
+[DEBUG] - [19-10-2025 18:52:05] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[DEBUG] - [19-10-2025 18:52:05] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['email']
+[DEBUG] - [19-10-2025 18:52:05] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[DEBUG] - [19-10-2025 18:52:05] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['genderMale']
+[DEBUG] - [19-10-2025 18:52:05] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['day']
+[DEBUG] - [19-10-2025 18:52:05] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['month']
+[DEBUG] - [19-10-2025 18:52:05] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['year']
+[DEBUG] - [19-10-2025 18:52:05] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['firstName']
+[DEBUG] - [19-10-2025 18:52:05] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['lastName']
+[DEBUG] - [19-10-2025 18:52:05] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['company']
+[DEBUG] - [19-10-2025 18:52:05] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address1']
+[DEBUG] - [19-10-2025 18:52:05] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address2']
+[DEBUG] - [19-10-2025 18:52:05] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['country']
+[DEBUG] - [19-10-2025 18:52:05] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['state']
+[DEBUG] - [19-10-2025 18:52:05] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['city']
+[DEBUG] - [19-10-2025 18:52:05] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['zipcode']
+[DEBUG] - [19-10-2025 18:52:05] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['mobileNumber']
+[INFO] - [19-10-2025 18:52:08] [main] [com.automationexercices.apis.UserManagementAPI] - <html>
+  <body>{"responseCode": 201, "message": "User created!"}</body>
+</html>
+[INFO] - [19-10-2025 18:52:10] [main] [com.automationexercices.media.ScreenshotsManager] - Capturing screenshot successfully
+[INFO] - [19-10-2025 18:52:10] [main] [com.automationexercices.listeners.TestNGListeners] - registerNewAccount passed
+[INFO] - [19-10-2025 18:52:10] [main] [com.automationexercices.listeners.TestNGListeners] - loginToAccount  About to execute 
+[INFO] - [19-10-2025 18:52:11] [main] [com.automationexercices.utils.Actions.BrowserActions] - Navigated to URL: https://automationexercise.com/login
+[INFO] - [19-10-2025 18:52:11] [main] [com.automationexercices.utils.Actions.ElementActions] - Typed '{}' into element: {} owlcheckout_1760889119846@gmail.comBy.cssSelector: [data-qa="login-email"]
+[INFO] - [19-10-2025 18:52:11] [main] [com.automationexercices.utils.Actions.ElementActions] - Typed '{}' into element: {} P@ssw0rdBy.cssSelector: [data-qa="login-password"]
+[INFO] - [19-10-2025 18:52:12] [main] [com.automationexercices.utils.Actions.ElementActions] - Clicked on element: {}By.cssSelector: [data-qa="login-button"]
+[INFO] - [19-10-2025 18:52:12] [main] [com.automationexercices.utils.Actions.ElementActions] - Retrieved text ' from element:  owl_checkoutBy.tagName: b
+[INFO] - [19-10-2025 18:52:12] [main] [com.automationexercices.pages.components.NavigationBarComponent] - Actual user name is: {} owl_checkout
+[INFO] - [19-10-2025 18:52:12] [main] [com.automationexercices.media.ScreenshotsManager] - Capturing screenshot successfully
+[INFO] - [19-10-2025 18:52:12] [main] [com.automationexercices.listeners.TestNGListeners] - loginToAccount passed
+[INFO] - [19-10-2025 18:52:12] [main] [com.automationexercices.listeners.TestNGListeners] - addProductsToCart  About to execute 
+[INFO] - [19-10-2025 18:52:13] [main] [com.automationexercices.utils.Actions.BrowserActions] - Navigated to URL: https://automationexercise.com/products
+[INFO] - [19-10-2025 18:52:14] [main] [com.automationexercices.utils.Actions.ElementActions] - Clicked on element: {}By.xpath: //div[@class='features_items'] //div[@class='productinfo text-center']/p[.='Men Tshirt']//following-sibling::a
+[INFO] - [19-10-2025 18:52:14] [main] [com.automationexercices.utils.Actions.ElementActions] - Retrieved text ' from element:  By.cssSelector: .modal-body>p
+[INFO] - [19-10-2025 18:52:14] [main] [com.automationexercices.utils.Actions.ElementActions] - Retrieved text ' from element:  By.cssSelector: .modal-body>p
+[INFO] - [19-10-2025 18:52:14] [main] [com.automationexercices.utils.Actions.ElementActions] - Retrieved text ' from element:  Your product has been added to cart.By.cssSelector: .modal-body>p
+[INFO] - [19-10-2025 18:52:14] [main] [com.automationexercices.pages.ProductsPage] - Actual product added message: Your product has been added to cart.
+[INFO] - [19-10-2025 18:52:15] [main] [com.automationexercices.utils.Actions.ElementActions] - Clicked on element: {}By.cssSelector: p>[href="/view_cart"]
+[INFO] - [19-10-2025 18:52:15] [main] [com.automationexercices.utils.Actions.ElementActions] - Retrieved text ' from element:  Men TshirtBy.xpath: (//h4 /a[.='Men Tshirt'])[1]
+[INFO] - [19-10-2025 18:52:15] [main] [com.automationexercices.utils.Actions.ElementActions] - Retrieved text ' from element:  Rs. 400By.xpath: (//h4 /a[.='Men Tshirt']//following::td[@class='cart_price']/p)[1]
+[INFO] - [19-10-2025 18:52:15] [main] [com.automationexercices.utils.Actions.ElementActions] - Retrieved text ' from element:  1By.xpath: (//h4 /a[.='Men Tshirt']//following::td[@class='cart_quantity']/button)[1]
+[INFO] - [19-10-2025 18:52:15] [main] [com.automationexercices.utils.Actions.ElementActions] - Retrieved text ' from element:  Rs. 400By.xpath: (//h4 /a[.='Men Tshirt']//following::td[@class='cart_total']/p)[1]
+[INFO] - [19-10-2025 18:52:15] [main] [com.automationexercices.media.ScreenshotsManager] - Capturing screenshot successfully
+[INFO] - [19-10-2025 18:52:15] [main] [com.automationexercices.listeners.TestNGListeners] - addProductsToCart passed
+[INFO] - [19-10-2025 18:52:15] [main] [com.automationexercices.listeners.TestNGListeners] - proceedToCheckout  About to execute 
+[INFO] - [19-10-2025 18:52:16] [main] [com.automationexercices.utils.Actions.ElementActions] - Clicked on element: {}By.cssSelector: .col-sm-6 >a
+[INFO] - [19-10-2025 18:52:16] [main] [com.automationexercices.utils.Actions.ElementActions] - Retrieved text ' from element:  Mr. Automation_Firstname Automation_LastnameBy.xpath: //ul[@id='address_delivery']/li[@class='address_firstname address_lastname']
+[INFO] - [19-10-2025 18:52:16] [main] [com.automationexercices.utils.Actions.ElementActions] - Retrieved text ' from element:  ItIBy.xpath: //ul[@id='address_delivery']/li[@class='address_address1 address_address2'][1]
+[INFO] - [19-10-2025 18:52:16] [main] [com.automationexercices.utils.Actions.ElementActions] - Retrieved text ' from element:  Automation_address1By.xpath: //ul[@id='address_delivery']/li[@class='address_address1 address_address2'][2]
+[INFO] - [19-10-2025 18:52:16] [main] [com.automationexercices.utils.Actions.ElementActions] - Retrieved text ' from element:  Automation_address2By.xpath: //ul[@id='address_delivery']/li[@class='address_address1 address_address2'][3]
+[INFO] - [19-10-2025 18:52:16] [main] [com.automationexercices.utils.Actions.ElementActions] - Retrieved text ' from element:  2222 Atalanta GeorgiaBy.xpath: //ul[@id='address_delivery']/li[@class='address_city address_state_name address_postcode']
+[INFO] - [19-10-2025 18:52:17] [main] [com.automationexercices.utils.Actions.ElementActions] - Retrieved text ' from element:  United StatesBy.xpath: //ul[@id='address_delivery']/li[@class='address_country_name']
+[INFO] - [19-10-2025 18:52:17] [main] [com.automationexercices.utils.Actions.ElementActions] - Retrieved text ' from element:  123456789By.xpath: //ul[@id='address_delivery']/li[@class='address_phone']
+[INFO] - [19-10-2025 18:52:17] [main] [com.automationexercices.utils.Actions.ElementActions] - Retrieved text ' from element:  Mr. Automation_Firstname Automation_LastnameBy.xpath: //ul[@id='address_invoice']/li[@class='address_firstname address_lastname']
+[INFO] - [19-10-2025 18:52:17] [main] [com.automationexercices.utils.Actions.ElementActions] - Retrieved text ' from element:  ItIBy.xpath: //ul[@id='address_invoice']/li[@class='address_address1 address_address2'][1]
+[INFO] - [19-10-2025 18:52:17] [main] [com.automationexercices.utils.Actions.ElementActions] - Retrieved text ' from element:  Automation_address1By.xpath: //ul[@id='address_invoice']/li[@class='address_address1 address_address2'][2]
+[INFO] - [19-10-2025 18:52:17] [main] [com.automationexercices.utils.Actions.ElementActions] - Retrieved text ' from element:  Automation_address2By.xpath: //ul[@id='address_invoice']/li[@class='address_address1 address_address2'][3]
+[INFO] - [19-10-2025 18:52:17] [main] [com.automationexercices.utils.Actions.ElementActions] - Retrieved text ' from element:  2222 Atalanta GeorgiaBy.xpath: //ul[@id='address_invoice']/li[@class='address_city address_state_name address_postcode']
+[INFO] - [19-10-2025 18:52:17] [main] [com.automationexercices.utils.Actions.ElementActions] - Retrieved text ' from element:  United StatesBy.xpath: //ul[@id='address_invoice']/li[@class='address_country_name']
+[INFO] - [19-10-2025 18:52:17] [main] [com.automationexercices.utils.Actions.ElementActions] - Retrieved text ' from element:  123456789By.xpath: //ul[@id='address_invoice']/li[@class='address_phone']
+[INFO] - [19-10-2025 18:52:17] [main] [com.automationexercices.media.ScreenshotsManager] - Capturing screenshot successfully
+[INFO] - [19-10-2025 18:52:17] [main] [com.automationexercices.listeners.TestNGListeners] - proceedToCheckout passed
+[INFO] - [19-10-2025 18:52:17] [main] [com.automationexercices.listeners.TestNGListeners] - deleteAccount  About to execute 
+[INFO] - [19-10-2025 18:52:17] [main] [com.automationexercices.apis.UserManagementAPI] - <html>
+  <body>{"responseCode": 200, "message": "Account deleted!"}</body>
+</html>
+[INFO] - [19-10-2025 18:52:18] [main] [com.automationexercices.media.ScreenshotsManager] - Capturing screenshot successfully
+[INFO] - [19-10-2025 18:52:18] [main] [com.automationexercices.listeners.TestNGListeners] - deleteAccount passed
+[INFO] - [19-10-2025 18:52:18] [main] [com.automationexercices.drivers.GUIDriver] - Initializing driver =>edge<=
+[INFO] - [19-10-2025 18:52:21] [main] [com.automationexercices.utils.Actions.BrowserActions] - Navigated to URL: https://automationexercise.com
+[INFO] - [19-10-2025 18:52:21] [main] [com.automationexercices.listeners.TestNGListeners] - registerNewAccount  About to execute 
+[INFO] - [19-10-2025 18:52:22] [main] [com.automationexercices.apis.UserManagementAPI] - <html>
+  <body>{"responseCode": 201, "message": "User created!"}</body>
+</html>
+[INFO] - [19-10-2025 18:52:22] [main] [com.automationexercices.media.ScreenshotsManager] - Capturing screenshot successfully
+[INFO] - [19-10-2025 18:52:22] [main] [com.automationexercices.listeners.TestNGListeners] - registerNewAccount passed
+[INFO] - [19-10-2025 18:52:22] [main] [com.automationexercices.listeners.TestNGListeners] - loginToAccount  About to execute 
+[INFO] - [19-10-2025 18:52:22] [main] [com.automationexercices.utils.Actions.BrowserActions] - Navigated to URL: https://automationexercise.com/login
+[INFO] - [19-10-2025 18:52:23] [main] [com.automationexercices.utils.Actions.ElementActions] - Typed '{}' into element: {} owlcheckout_1760889119909@gmail.comBy.cssSelector: [data-qa="login-email"]
+[INFO] - [19-10-2025 18:52:23] [main] [com.automationexercices.utils.Actions.ElementActions] - Typed '{}' into element: {} P@ssw0rdBy.cssSelector: [data-qa="login-password"]
+[INFO] - [19-10-2025 18:52:24] [main] [com.automationexercices.utils.Actions.ElementActions] - Clicked on element: {}By.cssSelector: [data-qa="login-button"]
+[INFO] - [19-10-2025 18:52:24] [main] [com.automationexercices.utils.Actions.ElementActions] - Retrieved text ' from element:  owl_checkoutBy.tagName: b
+[INFO] - [19-10-2025 18:52:24] [main] [com.automationexercices.pages.components.NavigationBarComponent] - Actual user name is: {} owl_checkout
+[INFO] - [19-10-2025 18:52:24] [main] [com.automationexercices.media.ScreenshotsManager] - Capturing screenshot successfully
+[INFO] - [19-10-2025 18:52:24] [main] [com.automationexercices.listeners.TestNGListeners] - loginToAccount passed
+[INFO] - [19-10-2025 18:52:24] [main] [com.automationexercices.listeners.TestNGListeners] - addProductsToCart  About to execute 
+[INFO] - [19-10-2025 18:52:24] [main] [com.automationexercices.utils.Actions.BrowserActions] - Navigated to URL: https://automationexercise.com/products
+[INFO] - [19-10-2025 18:52:24] [main] [com.automationexercices.utils.Actions.ElementActions] - Clicked on element: {}By.xpath: //div[@class='features_items'] //div[@class='productinfo text-center']/p[.='Men Tshirt']//following-sibling::a
+[INFO] - [19-10-2025 18:52:25] [main] [com.automationexercices.utils.Actions.ElementActions] - Retrieved text ' from element:  By.cssSelector: .modal-body>p
+[INFO] - [19-10-2025 18:52:25] [main] [com.automationexercices.utils.Actions.ElementActions] - Retrieved text ' from element:  By.cssSelector: .modal-body>p
+[INFO] - [19-10-2025 18:52:25] [main] [com.automationexercices.utils.Actions.ElementActions] - Retrieved text ' from element:  By.cssSelector: .modal-body>p
+[INFO] - [19-10-2025 18:52:25] [main] [com.automationexercices.utils.Actions.ElementActions] - Retrieved text ' from element:  By.cssSelector: .modal-body>p
+[INFO] - [19-10-2025 18:52:25] [main] [com.automationexercices.utils.Actions.ElementActions] - Retrieved text ' from element:  By.cssSelector: .modal-body>p
+[INFO] - [19-10-2025 18:52:25] [main] [com.automationexercices.utils.Actions.ElementActions] - Retrieved text ' from element:  Your product has been added to cart.By.cssSelector: .modal-body>p
+[INFO] - [19-10-2025 18:52:25] [main] [com.automationexercices.pages.ProductsPage] - Actual product added message: Your product has been added to cart.
+[INFO] - [19-10-2025 18:52:26] [main] [com.automationexercices.utils.Actions.ElementActions] - Clicked on element: {}By.cssSelector: p>[href="/view_cart"]
+[INFO] - [19-10-2025 18:52:26] [main] [com.automationexercices.utils.Actions.ElementActions] - Retrieved text ' from element:  Men TshirtBy.xpath: (//h4 /a[.='Men Tshirt'])[1]
+[INFO] - [19-10-2025 18:52:26] [main] [com.automationexercices.utils.Actions.ElementActions] - Retrieved text ' from element:  Rs. 400By.xpath: (//h4 /a[.='Men Tshirt']//following::td[@class='cart_price']/p)[1]
+[INFO] - [19-10-2025 18:52:26] [main] [com.automationexercices.utils.Actions.ElementActions] - Retrieved text ' from element:  1By.xpath: (//h4 /a[.='Men Tshirt']//following::td[@class='cart_quantity']/button)[1]
+[INFO] - [19-10-2025 18:52:26] [main] [com.automationexercices.utils.Actions.ElementActions] - Retrieved text ' from element:  Rs. 400By.xpath: (//h4 /a[.='Men Tshirt']//following::td[@class='cart_total']/p)[1]
+[INFO] - [19-10-2025 18:52:26] [main] [com.automationexercices.media.ScreenshotsManager] - Capturing screenshot successfully
+[INFO] - [19-10-2025 18:52:26] [main] [com.automationexercices.listeners.TestNGListeners] - addProductsToCart passed
+[INFO] - [19-10-2025 18:52:26] [main] [com.automationexercices.listeners.TestNGListeners] - proceedToCheckout  About to execute 
+[INFO] - [19-10-2025 18:52:27] [main] [com.automationexercices.utils.Actions.ElementActions] - Clicked on element: {}By.cssSelector: .col-sm-6 >a
+[INFO] - [19-10-2025 18:52:27] [main] [com.automationexercices.utils.Actions.ElementActions] - Retrieved text ' from element:  Mr. Automation_Firstname Automation_LastnameBy.xpath: //ul[@id='address_delivery']/li[@class='address_firstname address_lastname']
+[INFO] - [19-10-2025 18:52:27] [main] [com.automationexercices.utils.Actions.ElementActions] - Retrieved text ' from element:  ItIBy.xpath: //ul[@id='address_delivery']/li[@class='address_address1 address_address2'][1]
+[INFO] - [19-10-2025 18:52:27] [main] [com.automationexercices.utils.Actions.ElementActions] - Retrieved text ' from element:  Automation_address1By.xpath: //ul[@id='address_delivery']/li[@class='address_address1 address_address2'][2]
+[INFO] - [19-10-2025 18:52:27] [main] [com.automationexercices.utils.Actions.ElementActions] - Retrieved text ' from element:  Automation_address2By.xpath: //ul[@id='address_delivery']/li[@class='address_address1 address_address2'][3]
+[INFO] - [19-10-2025 18:52:27] [main] [com.automationexercices.utils.Actions.ElementActions] - Retrieved text ' from element:  2222 Atalanta GeorgiaBy.xpath: //ul[@id='address_delivery']/li[@class='address_city address_state_name address_postcode']
+[INFO] - [19-10-2025 18:52:27] [main] [com.automationexercices.utils.Actions.ElementActions] - Retrieved text ' from element:  United StatesBy.xpath: //ul[@id='address_delivery']/li[@class='address_country_name']
+[INFO] - [19-10-2025 18:52:27] [main] [com.automationexercices.utils.Actions.ElementActions] - Retrieved text ' from element:  123456789By.xpath: //ul[@id='address_delivery']/li[@class='address_phone']
+[INFO] - [19-10-2025 18:52:27] [main] [com.automationexercices.utils.Actions.ElementActions] - Retrieved text ' from element:  Mr. Automation_Firstname Automation_LastnameBy.xpath: //ul[@id='address_invoice']/li[@class='address_firstname address_lastname']
+[INFO] - [19-10-2025 18:52:27] [main] [com.automationexercices.utils.Actions.ElementActions] - Retrieved text ' from element:  ItIBy.xpath: //ul[@id='address_invoice']/li[@class='address_address1 address_address2'][1]
+[INFO] - [19-10-2025 18:52:27] [main] [com.automationexercices.utils.Actions.ElementActions] - Retrieved text ' from element:  Automation_address1By.xpath: //ul[@id='address_invoice']/li[@class='address_address1 address_address2'][2]
+[INFO] - [19-10-2025 18:52:27] [main] [com.automationexercices.utils.Actions.ElementActions] - Retrieved text ' from element:  Automation_address2By.xpath: //ul[@id='address_invoice']/li[@class='address_address1 address_address2'][3]
+[INFO] - [19-10-2025 18:52:27] [main] [com.automationexercices.utils.Actions.ElementActions] - Retrieved text ' from element:  2222 Atalanta GeorgiaBy.xpath: //ul[@id='address_invoice']/li[@class='address_city address_state_name address_postcode']
+[INFO] - [19-10-2025 18:52:27] [main] [com.automationexercices.utils.Actions.ElementActions] - Retrieved text ' from element:  United StatesBy.xpath: //ul[@id='address_invoice']/li[@class='address_country_name']
+[INFO] - [19-10-2025 18:52:27] [main] [com.automationexercices.utils.Actions.ElementActions] - Retrieved text ' from element:  123456789By.xpath: //ul[@id='address_invoice']/li[@class='address_phone']
+[INFO] - [19-10-2025 18:52:27] [main] [com.automationexercices.media.ScreenshotsManager] - Capturing screenshot successfully
+[INFO] - [19-10-2025 18:52:28] [main] [com.automationexercices.listeners.TestNGListeners] - proceedToCheckout passed
+[INFO] - [19-10-2025 18:52:28] [main] [com.automationexercices.listeners.TestNGListeners] - paymentTC  About to execute 
+[INFO] - [19-10-2025 18:52:28] [main] [com.automationexercices.utils.Actions.ElementActions] - Clicked on element: {}By.xpath: //div/a[.='Place Order']
+[INFO] - [19-10-2025 18:52:28] [main] [com.automationexercices.utils.Actions.ElementActions] - Typed '{}' into element: {} MuhammadBy.cssSelector: [data-qa="name-on-card"]
+[INFO] - [19-10-2025 18:52:28] [main] [com.automationexercices.utils.Actions.ElementActions] - Typed '{}' into element: {} 4242424242424242By.cssSelector: [data-qa="card-number"]
+[INFO] - [19-10-2025 18:52:29] [main] [com.automationexercices.utils.Actions.ElementActions] - Typed '{}' into element: {} 123By.cssSelector: [data-qa="cvc"]
+[INFO] - [19-10-2025 18:52:29] [main] [com.automationexercices.utils.Actions.ElementActions] - Typed '{}' into element: {} 12By.cssSelector: [data-qa="expiry-month"]
+[INFO] - [19-10-2025 18:52:29] [main] [com.automationexercices.utils.Actions.ElementActions] - Typed '{}' into element: {} 2035By.cssSelector: [data-qa="expiry-year"]
+[INFO] - [19-10-2025 18:52:31] [main] [com.automationexercices.utils.Actions.ElementActions] - Clicked on element: {}By.cssSelector: [data-qa="pay-button"]
+[INFO] - [19-10-2025 18:52:31] [main] [com.automationexercices.utils.Actions.ElementActions] - Retrieved text ' from element:  Congratulations! Your order has been confirmed!By.xpath: //p[.='Congratulations! Your order has been confirmed!']
+[INFO] - [19-10-2025 18:52:31] [main] [com.automationexercices.utils.Actions.ElementActions] - Clicked on element: {}By.xpath: //a[.='Download Invoice']
+[INFO] - [19-10-2025 18:52:31] [main] [com.automationexercices.media.ScreenshotsManager] - Capturing screenshot successfully
+[INFO] - [19-10-2025 18:52:31] [main] [com.automationexercices.listeners.TestNGListeners] - paymentTC passed
+[INFO] - [19-10-2025 18:52:31] [main] [com.automationexercices.listeners.TestNGListeners] - deleteAccount  About to execute 
+[INFO] - [19-10-2025 18:52:32] [main] [com.automationexercices.apis.UserManagementAPI] - <html>
+  <body>{"responseCode": 200, "message": "Account deleted!"}</body>
+</html>
+[INFO] - [19-10-2025 18:52:32] [main] [com.automationexercices.media.ScreenshotsManager] - Capturing screenshot successfully

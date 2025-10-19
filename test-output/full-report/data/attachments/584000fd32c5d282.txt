@@ -1,0 +1,33 @@
+[INFO] - [19-10-2025 18:51:58] [main] [com.automationexercices.FileUtils] - File deleted: C:\Users\Maka\Desktop\ITI\final_git\AutomationExerciseProject\test-output\Logs
+[INFO] - [19-10-2025 18:51:58] [main] [com.automationexercices.listeners.TestNGListeners] - Test output directories cleaned
+[INFO] - [19-10-2025 18:51:58] [main] [com.automationexercices.FileUtils] - Directory created: test-output/screenshots/
+[INFO] - [19-10-2025 18:51:58] [main] [com.automationexercices.FileUtils] - Directory created: src/test/resources/downloads
+[INFO] - [19-10-2025 18:51:58] [main] [com.automationexercices.listeners.TestNGListeners] - Test output directories created
+[INFO] - [19-10-2025 18:51:58] [main] [com.automationexercices.listeners.TestNGListeners] - Properties loaded
+[INFO] - [19-10-2025 18:51:58] [main] [com.automationexercices.utils.report.AllureEnvironmentManager] - Allure environment info set successfully
+[INFO] - [19-10-2025 18:51:59] [main] [com.automationexercices.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [19-10-2025 18:51:59] [main] [com.automationexercices.listeners.TestNGListeners] - Allure environment info set
+[INFO] - [19-10-2025 18:52:00] [main] [com.automationexercices.drivers.GUIDriver] - Initializing driver =>edge<=
+[INFO] - [19-10-2025 18:52:04] [main] [com.automationexercices.utils.Actions.BrowserActions] - Navigated to URL: https://automationexercise.com
+[INFO] - [19-10-2025 18:52:04] [main] [com.automationexercices.listeners.TestNGListeners] - registerNewAccount  About to execute 
+[DEBUG] - [19-10-2025 18:52:05] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[DEBUG] - [19-10-2025 18:52:05] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['email']
+[DEBUG] - [19-10-2025 18:52:05] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[DEBUG] - [19-10-2025 18:52:05] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['genderMale']
+[DEBUG] - [19-10-2025 18:52:05] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['day']
+[DEBUG] - [19-10-2025 18:52:05] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['month']
+[DEBUG] - [19-10-2025 18:52:05] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['year']
+[DEBUG] - [19-10-2025 18:52:05] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['firstName']
+[DEBUG] - [19-10-2025 18:52:05] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['lastName']
+[DEBUG] - [19-10-2025 18:52:05] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['company']
+[DEBUG] - [19-10-2025 18:52:05] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address1']
+[DEBUG] - [19-10-2025 18:52:05] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address2']
+[DEBUG] - [19-10-2025 18:52:05] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['country']
+[DEBUG] - [19-10-2025 18:52:05] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['state']
+[DEBUG] - [19-10-2025 18:52:05] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['city']
+[DEBUG] - [19-10-2025 18:52:05] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['zipcode']
+[DEBUG] - [19-10-2025 18:52:05] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['mobileNumber']
+[INFO] - [19-10-2025 18:52:08] [main] [com.automationexercices.apis.UserManagementAPI] - <html>
+  <body>{"responseCode": 201, "message": "User created!"}</body>
+</html>
+[INFO] - [19-10-2025 18:52:10] [main] [com.automationexercices.media.ScreenshotsManager] - Capturing screenshot successfully
